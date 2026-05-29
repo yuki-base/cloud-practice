@@ -1,20 +1,47 @@
 # Cloud Practice
 
-## Overview
-クラウドエンジニア（特にクラウドセキュリティ分野）を目指し、
-AWSを中心にインフラ・セキュリティの学習内容を記録するリポジトリです。
+AWSとPythonを用いたクラウド学習の記録です。
 
-## Current Focus
-- IAM（認証・認可設計）
-- EC2の構築とセキュリティ設定
-- S3のアクセス制御
-- VPCの基礎理解
+## 学習内容
 
-## Roadmap
-- AWS SAA（Solutions Architect Associate）取得
-- セキュアな構成を自分で設計できるようになる
-- ポートフォリオとして公開可能な成果物を作成
+### Day3 Linux Permission Study
 
-## Background
-Electrical and Electronic Engineering student.
-将来的にクラウドインフラ・セキュリティ領域で専門性を高めたいと考えています。
+* Linuxのファイル権限について学習
+* chmodによる権限変更を実践
+
+### Day5 IAM Role Verification
+
+* IAMユーザーとIAMロールの違いを学習
+* 最小権限の考え方を学習
+* Access KeyとIAMロールによる認証を理解
+
+## Python × AWS
+
+### S3 Bucket List Tool
+
+`s3_list.py`
+
+boto3を利用してS3バケット一覧を取得するツール。
+
+### EC2 Instance Status Tool
+
+`ec2_list.py`
+
+boto3を利用してEC2インスタンスの名前、ID、状態を取得するツール。
+
+## 使用技術
+
+* AWS IAM
+* AWS S3
+* AWS EC2
+* AWS CLI
+* Python
+* boto3
+* Git
+* GitHub
+
+## 今後の予定
+
+* 停止中EC2検知ツール作成
+* CloudWatch学習
+* AWS自動化スクリプト作成
